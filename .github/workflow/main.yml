@@ -22,4 +22,4 @@ jobs:
 
        - name: Run unit tests
          run: |
-            python -m pytest tests/test_factorial.py
+            python -m pytest -v tests/test_factorial.py
